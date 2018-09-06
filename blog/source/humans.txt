@@ -1,0 +1,26 @@
+/* TEAM */
+    Founder & Developer: Jian Pang
+    Contact: pangjian1010@gmail.com
+    Weibo: @pangjian_Sirius
+    Blog: https://www.pangjian.me
+    From: Beijing, China
+    University: Beijing Institute of Technology
+
+/* THANKS */
+    humans.txt Founder: Abel Cabans
+    Site: http://www.humanstxt.org
+
+/* SITE */
+    Last update: 2016/12/22
+    Language: Chinese
+    Doctype: HTML5
+    Standards: HTML5, CSS3
+    Deployment: Git, Github, Coding.net
+    Software: hexo
+    IDE: Atom
+
+        __  __                                _______  ________
+       / / / /_  ______ ___  ____ _____  ____/_  __/ |/ /_  __/
+      / /_/ / / / / __ `__ \/ __ `/ __ \/ ___// /  |   / / /
+     / __  / /_/ / / / / / / /_/ / / / (__  )/ /  /   | / /
+    /_/ /_/\__,_/_/ /_/ /_/\__,_/_/ /_/____//_/  /_/|_|/_/

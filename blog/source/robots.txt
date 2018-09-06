@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://www.pangjian.me/sitemap.xml
+Sitemap: https://www.pangjian.me/baidusitemap.xml
