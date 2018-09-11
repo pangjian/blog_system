@@ -20,4 +20,4 @@ updated: 2015-05-21 20:37:01
 
 ## 打赏
 如果觉得这个博客对你有帮助，请打赏我一杯咖啡钱。
-![微信付款码](/resources/common/wechat-qrcode.jpg)![支付宝付款码](/resources/common/zhifubao-qrcode.jpg)
+![付款码](/resources/common/qrcode.png)
