@@ -20,7 +20,7 @@ Session 亲和就是为了解决这个问题。负载均衡器为了保持 Sessi
 ### 过程
 选取 Apache 2.4 作为前端 Web Server 负载均衡服务器，后端选取2个 Tomcat 8.0 实例。同一个 Session 的请求只发送到一个 Tomcat 上。
 首先在`httpd.conf`文件里加载我们要使用的模块
-```
+```apache
 LoadModule lbmethod_byrequests_module modules/mod_lbmethod_byrequests.so
 LoadModule proxy_module modules/mod_proxy.so
 LoadModule proxy_ajp_module modules/mod_proxy_ajp.so
@@ -31,7 +31,7 @@ LoadModule proxy_http2_module modules/mod_proxy_http2.so
 LoadModule slotmem_shm_module modules/mod_slotmem_shm.so
 ```
 增加一个负载均衡的配置
-```
+```apache
 <Proxy balancer://testBalancer>
     BalancerMember http://127.0.0.1:8080/bfwDemo/ 
     BalancerMember http://127.0.0.1:9080/bfwDemo/
@@ -49,7 +49,7 @@ ProxyPassReverse /bfwDemo/ balancer://testBalancer/
 
 同时在 Apache 的配置文件中配置jvmRoute的分发规则, route 要和 tomcat 的 jvmRoute 配置对应
 
-```
+```apache
 <Proxy balancer://testBalancer>
     BalancerMember http://127.0.0.1:8080/bfwDemo/  route=jvm1
     BalancerMember http://127.0.0.1:9080/bfwDemo/  route=jvm2
