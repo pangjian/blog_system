@@ -1,0 +1,24 @@
+{
+  "name": "blog_system",
+  "version": "1.0.0",
+  "description": "## blog 博客的前端代码",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd blog && hexo s",
+    "build": "cd blog && hexo clean && hexo g",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangjian/blog_system.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "pangjian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pangjian/blog_system/issues"
+  },
+  "homepage": "https://github.com/pangjian/blog_system#readme"
+}
