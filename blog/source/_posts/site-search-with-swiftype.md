@@ -1,5 +1,6 @@
 title: 使用Swiftype为静态博客添加站内搜索
 date: 2015-03-24 21:35:58
+categories: [技术]
 tags: [技术,site search,swiftype,hexo]
 photos:
 - /resources/site-search-with-swiftype/swiftype.png

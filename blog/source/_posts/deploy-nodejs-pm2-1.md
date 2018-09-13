@@ -1,5 +1,6 @@
 title: nodejs部署方式-pm2(一)
 date: 2016-12-02 13:02:10
+categories: [技术]
 tags: [Nodejs,pm2]
 photos:
 - /resources/deploy-nodejs-pm2-1/pm2.png

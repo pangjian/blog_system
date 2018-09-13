@@ -1,5 +1,6 @@
 title: javascript前后端代码复用-browserify
 date: 2015-11-18 09:36:11
+categories: [技术]
 tags: [Nodejs,javascript,browserify]
 photos:
 - /resources/node-on-browser-browserify/browserify.png

@@ -1,5 +1,6 @@
 title: 使用CNPM搭建私有NPM仓库
 date: 2016-06-01 11:13:52
+categories: [技术]
 tags: [Nodejs,cnpm]
 photos:
 - /resources/cnpm-local-npm-server/cnpmtitle.png

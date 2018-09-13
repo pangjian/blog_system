@@ -1,5 +1,6 @@
 title: 不用cookie我也能追踪你！
 date: 2015-03-09 09:30:10
+categories: [技术]
 tags: [技术,cookie,html5,canvas,javascript]
 photos:
 - /resources/track-u-without-cookie/cookie.png

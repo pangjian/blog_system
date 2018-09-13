@@ -1,5 +1,6 @@
 title: 基于Firebase的Hexo博客实时访问数统计
 date: 2015-02-27 15:12:06
+categories: [技术]
 tags: [技术,firebase,hexo]
 photos:
 - /resources/realtime-count-firebase/firebase.PNG

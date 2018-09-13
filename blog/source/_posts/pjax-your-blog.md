@@ -1,4 +1,5 @@
 title: 使用Pjax优化你的网站
+categories: [技术]
 tags:
   - javascript
   - nprogress
@@ -6,7 +7,6 @@ tags:
 photos:
   - '/resources/pjax-your-blog/pjax.png'
 thumbnail: '/resources/pjax-your-blog/pjax.png'
-categories: []
 date: 2015-12-03 12:32:00
 ---
 Ajax（Asynchronous Javascript and XML）的魅力在于它的每一个成员都不是新技术，经过奇妙的结合却掀起了WEB2.0的革命。`Pjax`是`pushState`和`ajax`的封装，同样每一个都算不上新技术，结合起来却有着神奇的效果。

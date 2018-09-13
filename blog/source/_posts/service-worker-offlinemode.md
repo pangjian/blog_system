@@ -1,5 +1,6 @@
 title: 迈向PWA！利用serviceworker的离线访问模式
 date: 2017-02-08 08:02:10
+categories: [技术]
 tags: [javascript,ServiceWorker,PWA]
 photos:
 - /resources/service-worker-offlinemode/yuanli.png

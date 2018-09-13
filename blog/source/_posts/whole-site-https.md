@@ -1,5 +1,6 @@
 title: 全站HTTPS改造
 date: 2017-01-24 11:30:09
+categories: [技术]
 tags: [https,nginx]
 photos:
 - /resources/whole-site-https/https.png

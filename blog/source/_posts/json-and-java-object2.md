@@ -1,5 +1,6 @@
 title: Jackson中的那些坑
 date: 2015-10-30 08:19:33
+categories: [技术]
 tags: [json,java,jackson]
 photos:
 - /resources/json-and-java-object/JSON.png

@@ -1,5 +1,6 @@
 title: 近期想法汇总2015年9月
 date: 2015-09-15 14:59:45
+categories: [杂谈]
 tags: [近期想法,notion]
 photos:
 - /resources/recent-thinking/thinking.png

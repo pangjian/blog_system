@@ -1,5 +1,6 @@
 title: 浏览器缓存知识归纳
 date: 2016-03-05 13:53:54
+categories: [技术]
 tags: [cache]
 photos:
 - /resources/web-cache-detail/web-cache.png

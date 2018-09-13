@@ -12,6 +12,14 @@
 
     <div class="section-spacer"></div>
 
+    <!-- 字数统计 -->
+    <% if(theme.wordcount.enable === true) { %>
+    <div>
+        <span class="post-count">总字数：<%= wordcount(page.content) %></span>
+        <span class="post-count">预计阅读：<%= min2read(page.content) %> min</span>
+    </div>
+    <% } %>
+
     <!-- Favorite -->
     <!--
         <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">

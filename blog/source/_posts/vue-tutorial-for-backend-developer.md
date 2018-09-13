@@ -1,5 +1,6 @@
 title: 写给后端开发者看的Vue前端介绍（一）--基础篇
 date: 2017-04-05 16:51:15
+categories: [技术]
 tags: [vue, javascript, nodejs]
 ---
 不懂“前端er”说的 virtual dom、React、Angular、Vue，也不懂 ES6 为什么就这么优雅，更不知道为什么用 Bootstrap、jQuery 就得“剁手”，甚至不懂前端生态圈的重复造轮子文化。终于有一篇文章是写给后端工程师的前端介绍，后端写给后端看的。

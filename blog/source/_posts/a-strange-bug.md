@@ -1,5 +1,6 @@
 title: 我遇到一个Bug，金额大于一千万就报错
 date: 2016-01-13 13:43:13
+categories: [技术]
 tags: [java,jackson]
 photos:
 - /resources/a-strange-bug/BUG.png

@@ -1,5 +1,6 @@
 title: 2016年，猴年快乐！
 date: 2016-02-7 09:40:12
+categories: [杂谈]
 tags: [生活,近期想法,notion]
 photos:
 - /resources/happy-new-year-2016/happy.jpg

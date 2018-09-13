@@ -1,5 +1,6 @@
 title: JSON与Java对象的事
 date: 2015-09-12 13:11:33
+categories: [技术]
 tags: [json,java,jackson]
 photos:
 - /resources/json-and-java-object/JSON.png

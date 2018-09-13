@@ -1,5 +1,6 @@
 title: 升级Hexo2.X到3.0
 date: 2015-04-11 21:47:32
+categories: [技术]
 tags: [hexo]
 photos:
 - /resources/hexo-update-to-3-0/hexo3a.png
