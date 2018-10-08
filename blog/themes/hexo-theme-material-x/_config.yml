@@ -72,7 +72,7 @@ background:
 img:
     logo: "/logo.png"
     avatar: "/myavatar.jpg"
-    daily_pic: "/img/daily_pic.png"
+    daily_pic: "/resources/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
