@@ -27,4 +27,4 @@ RUN  cd blog \
      && cd /blog_system/backend \
      && npm install \
      && rm -rf /blog_system/blog
-CMD ["start_docker.sh"]
+CMD ["/blog_system/start_docker.sh"]
