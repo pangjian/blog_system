@@ -1,4 +1,4 @@
 #!/bin/bash
 cd backend;
 npm start;
-nginx -g daemon off;
+nginx -g "daemon off;"
