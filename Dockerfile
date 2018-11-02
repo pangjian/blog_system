@@ -13,6 +13,7 @@ COPY . /blog_system/
 
 # 声明运行时容器提供的服务端口
 EXPOSE 80
+EXPOSE 7001
 
 # 1.安装依赖
 # 2.运行 hexo g
@@ -23,5 +24,7 @@ RUN  cd blog \
      && npm install \
      && hexo g \
      && cp -r public/* /var/www/html \
-     && rm -rf /blog_system
-CMD ["nginx","-g","daemon off;"]
+     && cd /blog_system/backend \
+     && npm install \
+     && rm -rf /blog_system/blog
+CMD ["start_docker.sh"]
