@@ -26,5 +26,6 @@ RUN  cd blog \
      && cp -r public/* /var/www/html \
      && cd /blog_system/backend \
      && npm install \
-     && rm -rf /blog_system/blog
+     && rm -rf /blog_system/blog \
+     && chmod +x /blog_system/start_docker.sh
 CMD ["/blog_system/start_docker.sh"]
