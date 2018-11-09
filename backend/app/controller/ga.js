@@ -17,7 +17,6 @@ const keys = [
 class GaController extends Controller {
   async index() {
     const ctx = this.ctx;
-    const req = ctx.request;
     const data = {
       dr: ctx.params.r,
       dt: ctx.params.t,
@@ -69,6 +68,7 @@ async function sendGoogle(ctx, options) {
       form[key] = value;
     }
   });
+  ctx.logger.info(JSON.stringify(form));
   const result = await ctx.curl(api, {
     method: 'POST',
     data: form,
