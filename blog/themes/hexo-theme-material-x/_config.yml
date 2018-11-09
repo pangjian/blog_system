@@ -294,6 +294,7 @@ analytics:
     google_site_id:
     baidu_site_id:
     cnzz_site_id:
+    google_site_proxy_id: UA-90845625-1
 
 # Leancloud Views
 leancloud:

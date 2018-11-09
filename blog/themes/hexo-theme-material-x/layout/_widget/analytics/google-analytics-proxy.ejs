@@ -1,0 +1,26 @@
+<script>
+    var i, url = '//www.pangjian.me/api/ping';
+    var win = window;
+    var screen = win.screen,
+        doc = win.document;
+    var param = {
+        p: 'sirius-blog',
+        r: doc.referrer,
+        s: screen.width + 'x' + screen.height,
+        v: win.innerWidth + 'x' + win.innerHeight,
+        t: doc.title,
+        dpr: win.devicePixelRatio || win.webkitDevicePixelRatio || win.mozDevicePixelRatio || 1,
+        _: +new Date()
+    };
+
+    var query = [];
+    for (i in param) {
+        query.push(i + '=' + encodeURIComponent(param[i]));
+    }
+
+    setTimeout(function () {
+        var img = new Image();
+        img.src = url + '?' + query.join('&');
+        $('#monitor').append(img);
+    }, 10);
+</script>

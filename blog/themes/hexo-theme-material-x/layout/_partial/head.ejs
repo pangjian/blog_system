@@ -191,6 +191,9 @@
     <% if(theme.analytics.cnzz_site_id) { %>
         <%- partial('_widget/analytics/cnzz-analytics') %>
     <% } %>
+    <% if(theme.analytics.google_site_proxy_id) { %>
+        <%- partial('_widget/analytics/google-analytics-proxy') %>
+    <% } %>
 
     <!-- Custom Head -->
     <% if (site.data.head) { %>
