@@ -10,4 +10,5 @@ module.exports = app => {
   router.get(basepath + '/', controller.home.index);
   router.get(basepath + '/ys/geturls', controller.ys.getUrls);
   router.get(basepath + '/ping', controller.ga.index);
+  router.get(basepath + '/home', controller.door.index);
 };

@@ -4,10 +4,12 @@
   "description": "blog backend",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "egg": "^2.2.1",
     "egg-parameters": "^0.1.0",
     "egg-scripts": "^2.5.0",
     "lodash": "^4.17.11",
+    "qs": "^6.7.0",
     "universal-analytics": "^0.4.20",
     "uuid": "^3.3.2"
   },
