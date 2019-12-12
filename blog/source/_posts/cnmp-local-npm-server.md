@@ -5,6 +5,7 @@ tags: [Nodejs,cnpm]
 photos:
 - /resources/cnpm-local-npm-server/cnpmtitle.png
 thumbnail: /resources/cnpm-local-npm-server/cnpmtitle.png
+cover: /resources/cnpm-local-npm-server/cnpmtitle.png
 ---
 我们在使用Nodejs的时候，使用npm仓库来发布和管理模块，我们可以从npm上下载别人发布的模块使用，也可以自己发布模块，有点类似于Maven，这是非常流行的开源社区模式。但是在企业内部，我们不希望我们的生产代码可以随意引用任何未经企业审核的代码；我们也不希望企业内部自己的模块发布给任意人员使用；还有一个重要的原因是很多企业内部无法连接互联网`cnpm`就是来解决这些问题的。官方的解释是`cnpm`=**Company npm**
 # 环境配置

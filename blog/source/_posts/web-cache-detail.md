@@ -5,6 +5,7 @@ tags: [cache]
 photos:
 - /resources/web-cache-detail/web-cache.png
 thumbnail: /resources/web-cache-detail/web-cache.png
+cover: /resources/web-cache-detail/web-cache.png
 ---
 写在开头：这篇文章是打算分享到单位内部的材料。归纳浏览器缓存也是对一个生产问题的分析总结出来的。这片文章经过脱敏以后发表到个人博客上面吧。
 

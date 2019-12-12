@@ -5,6 +5,7 @@ tags: [Nodejs,pm2]
 photos:
 - /resources/deploy-nodejs-pm2-1/pm2.png
 thumbnail: /resources/deploy-nodejs-pm2-1/pm2.png
+cover: /resources/deploy-nodejs-pm2-1/pm2.png
 ---
 
 目前Nodejs开发中有很多痛点，其中有一个是修改完代码以后需要我们重启服务才能看到效果。这样一次次的杀进程、重启，杀进程、重启很让人头大。程序员是最痛恨重复工作的物种，之前有了解过的同学可能知道`forever`。`forever`可以帮我们解决上面的问题，通过对资源变化的检测做到变化后自动重启。开发阶段我们使用`node file.js`来启动另外由于Nodejs的单线程，任何异常都会导致整个服务中断，这对于生产上长时间提供服务的程序来讲是不可以的，`forever`可以帮我们在异常后重启，保证服务一直在线，我想这也就是它名字的由来吧。但我想说的是`forever`不够“高！大！上！”。接下来我要介绍一个足够高大上的神器--[`pm2`](http://pm2.keymetrics.io)。

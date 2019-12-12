@@ -44,11 +44,11 @@ highlight:
   auto_detect: false
   tab_replace:
 
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'default'
-  line_number: false    # default false
-  custom_css:      # optional
+#prism_plugin:
+#  mode: 'preprocess'    # realtime/preprocess
+#  theme: 'default'
+#  line_number: false    # default false
+#  custom_css:      # optional
     
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -79,7 +79,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-material-x
+#theme: hexo-theme-material-x
+theme: hexo-theme-obsidian
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

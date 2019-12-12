@@ -6,6 +6,7 @@ tags: [shell, powershell]
 photos:
 - /resources/win10-beauty-shell/title.jpg
 thumbnail: /resources/win10-beauty-shell/title.jpg
+cover: /resources/win10-beauty-shell/title.jpg
 ---
 
 Win的同学一定都会羡慕玩Mac的同学那一套漂亮的Shell吧，iTerm2 && Oh My Zsh搭配出来的效果让人流口水。下面就是我找到的别人搭配的终端效果图。

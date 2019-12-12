@@ -6,6 +6,7 @@ tags: [e2e, javascript]
 photos:
 - /resources/how-to-do-e2e-test-with-cypress/cover.jpg
 thumbnail: /resources/how-to-do-e2e-test-with-cypress/cover.jpg
+cover: /resources/how-to-do-e2e-test-with-cypress/cover.jpg
 ---
 
 ## 简介

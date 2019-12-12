@@ -5,6 +5,7 @@ tags: [技术,cookie,html5,canvas,javascript]
 photos:
 - /resources/track-u-without-cookie/cookie.png
 thumbnail: /resources/track-u-without-cookie/cookie.png
+cover: /resources/track-u-without-cookie/cookie.png
 ---
 
 抱歉起了这么个“吸引人的”标题，但我不是标题党。最近由于工作上的一些事情，涉及到识别、追踪设备的项目来了几个，从一篇论文《The Web Never Forgets》无意间又发现了这个技术。查阅了一些资料。做了个小Demo应用到了本博客上。对！你没听错，本页面在追踪你。不过也没那么可怕。看看本站的Visitor Info模块，它可能在屏幕右侧也可能在最底下。这个模块会知道你是否之前访问过本站，并且结合了上一篇博文[基于Firebase的Hexo博客实时访问数统计](http://pangjian.info/2015/02/27/realtime-count-firebase/)中提到的访问数统计，做到了记录每一位访问者的访问次数。即使你关闭了cookie。^ _ ^

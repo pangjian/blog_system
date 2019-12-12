@@ -5,6 +5,7 @@ tags: [json,java,jackson]
 photos:
 - /resources/json-and-java-object/JSON.png
 thumbnail: /resources/json-and-java-object/JSON.png
+cover: /resources/json-and-java-object/JSON.png
 ---
 
 # 不符合驼峰规范的变量

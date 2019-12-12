@@ -5,6 +5,7 @@ tags: [https,nginx]
 photos:
 - /resources/whole-site-https/https.png
 thumbnail: /resources/whole-site-https/https.png
+cover: /resources/whole-site-https/https.png
 ---
 HTTPS大势已来，2016年6月苹果宣布要求所有iOS Apps在2017年初全部使用HTTPS，11月Google宣布，从17年1月开始，对没有使用HTTPS的网站竖起“不安全”的小红旗。15年，淘宝、天猫也启动了HTTPS迁移。国内网络环境也不太好，经常会有运营商篡改页面的情况，为了更安全的客户体验，避免各种情况同事顺应大势所趋，本博客也进行了全站HTTPS化。
 <!--more-->

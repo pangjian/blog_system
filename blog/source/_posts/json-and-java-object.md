@@ -5,6 +5,7 @@ tags: [json,java,jackson]
 photos:
 - /resources/json-and-java-object/JSON.png
 thumbnail: /resources/json-and-java-object/JSON.png
+cover: /resources/json-and-java-object/JSON.png
 ---
 
 很久没有写了，来清理一下杂草。这片文字是团队内其他小伙伴经常混淆的一个知识点，最初的目的是写个东西好让大家用到的时候可查，由于原文涉及公司的一个框架，不便写出来。该框架其实引用的开源框架Jackson，所以本文直接介绍Jackson部分。其实说不上介绍，约等于一个学习笔记。

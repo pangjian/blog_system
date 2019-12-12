@@ -6,6 +6,7 @@ tags:
 photos:
   - '/resources/travis-ci-hexo/travis-ci.png'
 thumbnail: '/resources/travis-ci-hexo/travis-ci.png'
+cover: '/resources/travis-ci-hexo/travis-ci.png'
 date: 2016-05-25 15:37:00
 ---
 Hexo是一个基于Nodejs的轻量级静态博客生成框架。静态博客生成程序会将我们所写的博客生成为一套HTML+CSS+JavaScript代码，我们将这个代码部署到诸如Github Page这样的地方就可以在世界任何一个地方访问我们的博客了。这种方案有一个非常有利的优点--免费。但是，hexo环境不是处处都有，换个地方写作变成了一件麻烦事。而且写完文章以后需要`hexo g`，`hexo d`等一系列操作，着实很麻烦。本篇文章利用Travis CI解决以上痛点。

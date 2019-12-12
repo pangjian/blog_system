@@ -5,6 +5,7 @@ tags: [Nodejs,javascript,browserify]
 photos:
 - /resources/node-on-browser-browserify/browserify.png
 thumbnail: /resources/node-on-browser-browserify/browserify.png
+cover: /resources/node-on-browser-browserify/browserify.png
 ---
 Nodejs将javascript带上了一个新的高度，让之运行于浏览器端的javascript可以运行在服务器端。但是Nodejs遵循Commonjs规范，不能直接运行在浏览器端。虽然是同一种语言，但是前后端有着自己的库，不能复用真是一种浪费。
 这时候一个神器出现了，[Browserify](http://browserify.org/)。通过预编译，可以将Commonjs规范的后端Nodejs代码直接可以运行在浏览器端。打通了端后端代码复用的壁垒，为nodejs程序开辟了一片新天地。

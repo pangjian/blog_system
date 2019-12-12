@@ -6,6 +6,7 @@ photos:
 - /resources/a-strange-bug/BUG.png
 
 thumbnail: /resources/a-strange-bug/BUG.png
+cover: /resources/a-strange-bug/BUG.png
 ---
 
 这是一个在测试环境发现的一个BUG，感觉很有趣，便写出来分享一下。本文的灵感以及标题都来自于《我遇到一个BUG，每逢周三就崩溃》。

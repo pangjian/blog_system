@@ -6,6 +6,7 @@ photos:
 - /resources/hexo-update-to-3-0/hexo3a.png
 - /resources/hexo-update-to-3-0/hexo3b.png
 thumbnail: /resources/hexo-update-to-3-0/hexo3a.png
+cover: /resources/hexo-update-to-3-0/hexo3a.png
 ---
 我一般不想转或者写别人写过的一些东西，但是今天这篇文章算是转的，完全记录了我升级hexo的过程。为什么呢？实在是觊觎了很久了，一直没敢动手，3.0版本可是个大手术，据说好多主题和插件都挂了，现在这个主题我修改了不少，怕万一出个什么问题很麻烦。仅以此文来记录这次没什么意外地升级。
 

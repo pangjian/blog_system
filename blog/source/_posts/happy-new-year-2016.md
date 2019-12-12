@@ -5,6 +5,7 @@ tags: [生活,近期想法,notion]
 photos:
 - /resources/happy-new-year-2016/happy.jpg
 thumbnail: /resources/happy-new-year-2016/happy.jpg
+cover: /resources/happy-new-year-2016/happy.jpg
 ---
 2016年新年，祝愿所有人新年快乐，猴年吉祥。
 这片文章是【近期想法】主题的第二篇，上一篇有部分内容已经实现了，只是没有来得及写文章。

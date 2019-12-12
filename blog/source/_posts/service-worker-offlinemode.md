@@ -5,6 +5,7 @@ tags: [javascript,ServiceWorker,PWA]
 photos:
 - /resources/service-worker-offlinemode/yuanli.png
 thumbnail: /resources/service-worker-offlinemode/yuanli.png
+cover: /resources/service-worker-offlinemode/yuanli.png
 ---
 微信小程序来了，可以利用WEB技术在微信打造一个有着Native应用体验的应用，业界非常看好这种形式。但是你们也许不知道，Google早已有类似的规划，甚至层次更高。那就是PWA（渐进式增强WEB应用）。
 PWA有以下几种特性：
