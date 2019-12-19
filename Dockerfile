@@ -1,5 +1,5 @@
 # 使用 node 6.10.3 的精简版作为基础镜像
-FROM node:8.12.0-slim
+FROM node:12.13.1-slim
 
 # 安装 nginx
 RUN apt-get update \
