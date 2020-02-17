@@ -93,7 +93,7 @@ rss: /atom.xml
 # ---------------------------------------------------------------
 
 # Auto play article audio
-autoplay: false
+autoplay: true
 
 # default mp3 file
 mp3:
@@ -163,7 +163,7 @@ busuanzi:
 #Enable social media sharing
 sharejs:
   enable: true
-  disabled: 'facebook,douban,linkedin,diandian,tencent,google'
+  disabled: 'facebook,douban,diandian,tencent,google'
 
 # Use codemirror instead of highlight js for better colors
 # if you want more language support check the modes list at official website
