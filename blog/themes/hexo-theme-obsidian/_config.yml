@@ -97,7 +97,7 @@ autoplay: true
 
 # default mp3 file
 mp3:
-  - statics/ES_In_Hand.mp3
+  - resources/common/ES_In_Hand.mp3
 
 # ---------------------------------------------------------------
 # Plugins
@@ -146,7 +146,7 @@ html_truncate:
   # Characters kept for posts
   postLength: 250
   # Characters kept for cover posts
-  coverLength: 100
+  coverLength: 250
   ellipsis: '...'
   # Excluding html tags
   excludes: ['img', 'h1', 'h2']

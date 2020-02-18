@@ -10,7 +10,7 @@ cover: /resources/how-to-deploy-gitea-with-docker/gitea.png
 ---
 [Gitea](https://gitea.io)是[Gogs](https://gogs.io)的fork版本，是一个可以自行搭建的git服务器。两者均是开源的，托管在github上。有了Gogs为什么又会有Gitea呢,是由于社区认为Gogs的管理模式不利于社区发展,于是自立门户,他们之间的恩怨情仇我们不去讨论,有兴趣的可以看这个,[传送门](https://blog.gitea.io/2016/12/welcome-to-gitea/)。我为什么选择Gitea呢？是因为Gogs已经大半年没更新过版本了，Gitea维护非常积极。但是，说到底Gitea和Gogs差异不大，部署流程也是大同小异。
 
-<!--more-->
+
 
 ## 安装
 
@@ -18,6 +18,8 @@ cover: /resources/how-to-deploy-gitea-with-docker/gitea.png
 我打算部署在我的vps上，是购买的Vultr的。如果你也有Vps需求，可以使用[我的链接](https://www.vultr.com/?ref=7248669)注册，这样你我都会有$10奖励。
 操作系统:Ubuntu 18.04
 我使用了DaoCloud管理了我的VPS上所有的Docker镜像，我所有的应用都已经Docker化了，并且设置了自动部署，后续可能会写篇文章做一下介绍。
+
+<!--more-->
 
 ![我的Docker清单](/resources/how-to-deploy-gitea-with-docker/docker-image-list.png)
 
