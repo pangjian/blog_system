@@ -18,6 +18,7 @@ cover: /resources/how-to-deploy-gitea-with-docker/gitea.png
 我打算部署在我的vps上，是购买的Vultr的。如果你也有Vps需求，可以使用[我的链接](https://www.vultr.com/?ref=7248669)注册，这样你我都会有$10奖励。
 操作系统:Ubuntu 18.04
 我使用了DaoCloud管理了我的VPS上所有的Docker镜像，我所有的应用都已经Docker化了，并且设置了自动部署，后续可能会写篇文章做一下介绍。
+
 ![我的Docker清单](/resources/how-to-deploy-gitea-with-docker/docker-image-list.png)
 
 ### 安装Gitea
@@ -27,6 +28,7 @@ cover: /resources/how-to-deploy-gitea-with-docker/gitea.png
 mkdir /gitea
 ```
 在Daocloud的发现镜像菜单可以直接搜索docker hub内容，可以搜索到gitea的官方镜像 gitea/gitea。
+
 ![搜索镜像](/resources/how-to-deploy-gitea-with-docker/daocloud-dockerhub.png)
 
 在镜像出点击“部署”
@@ -40,6 +42,7 @@ mkdir /gitea
 容器的3000端口对应的是web服务的端口，这里我们按照官方习惯映射为10080。22为ssh端口，我们映射为10022。容器的数据路径`/var/lib/gitea`映射为我们刚才创建的`/gitea`。最后点击立即部署，等待部署完成，就可以通过`http://你的ip或域名:10080`访问gitea了。
 
 ![gitea](/resources/how-to-deploy-gitea-with-docker/gitea.png)
+
 接着设置一下管理员账号和一些初始化参数,就可以正常使用了。
 
 ## 两步认证
@@ -57,6 +60,7 @@ Gitea和Gogs其实都是支持的。
 ### 同步代码的设置
 因为开启了两步认证，我们无法在通过basic认证同步代码。那怎么办呢？答案是我们可以使用access token。access token类似Gitea给你生成了一个非常长的密码，你可以使用用户名+access token来同步代码。
 在个人设置-应用菜单里面可以生成一个access token。生成完成以后记得拷贝出来，因为页面关闭以后就再也无法看到了。
+
 ![access token](/resources/how-to-deploy-gitea-with-docker/accesstoken.png)
 
 ### 如何避免每次同步都输入access token
