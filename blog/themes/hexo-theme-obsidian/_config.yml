@@ -146,7 +146,7 @@ html_truncate:
   # Characters kept for posts
   postLength: 250
   # Characters kept for cover posts
-  coverLength: 250
+  coverLength: 150
   ellipsis: '...'
   # Excluding html tags
   excludes: ['img', 'h1', 'h2']
