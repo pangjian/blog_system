@@ -93,7 +93,7 @@ rss: /atom.xml
 # ---------------------------------------------------------------
 
 # Auto play article audio
-autoplay: true
+autoplay: false
 
 # default mp3 file
 mp3:

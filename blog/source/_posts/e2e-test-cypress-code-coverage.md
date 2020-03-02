@@ -78,7 +78,9 @@ if (process.env.npm_lifecycle_script === 'vue-cli-service test:e2e') {
 
 ## 运行
 这时候，所有的配置都完成了，相信注意看的同学都注意到了，我们安装了babel-plugin-istanbul的5.2.0版本，目前最新版是6.0.0，为什么不安装最新版呢？答：因为有坑啊！而且目前网上所有地方都没有提到这个坑。也就是6.0.0版本与5.2.0版本有一个巨大的差异，也就是读取nyc配置文件的方式发生了变化，但是官方的[ChangeLog](https://github.com/istanbuljs/babel-plugin-istanbul/blob/master/CHANGELOG.md)里面都没有提到。
-TODO此处插入依赖对比图
+
+![依赖对比图](/resources/e2e-test-cypress-code-coverage/dependency.png)
+
 此处的差异导致了6.0.0版本按照我们这种方法进行配置，并不能正常读取nyc的配置。我们配置了支持的扩展名称（vue和js），这个配置不能生效，导致代码覆盖率跑出来就只支持默认的js文件了。所以我们才引入了5.2.0版本。但是说不定babel-plugin-istanbul后续的版本可以解决这个问题，那时候就可以放心安装最新版了。
 
 激动的时刻到了，接下来我们运行
