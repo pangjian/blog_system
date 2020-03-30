@@ -8,16 +8,16 @@ const pw = '8ebf5eff9c4bcb68';
 
 class DoorController extends Controller {
   async index() {
-    // this.ctx.body = 'hi, egg';
-    console.log('in')
     const res = await login();
     const token = res.Data.Token;
     const homeId = res.Data.House.ID;
 
     const equip = (await searchEquipment(token)).Data;
+    // EQ_number
+    const result = await open(token, '92018052830079', homeId);
+    const result2 = await open(token, '92018052830062', homeId);
 
-    let result = await open(token, '92018052830079', homeId);
-    this.ctx.body = JSON.stringify(result.data)
+    this.ctx.body = JSON.stringify(result.data) + JSON.stringify(result2.data);
   }
 
 }
@@ -47,7 +47,7 @@ async function open(token, eqId, houseId) {
     channel: eqId,
     message: JSON.stringify(message),
   };
-  let res = await axios.request({
+  const res = await axios.request({
     url: 'http://tcc.einwin.com:8000//MobileApi/Publisher/Publish',
     method: 'POST',
     data: qs.stringify(data),
