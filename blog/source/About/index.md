@@ -3,9 +3,9 @@ date: 2015-02-21 17:01:33
 updated: 2015-05-21 20:37:01
 ---
 <div class="my-links">
-  <a class="gradient-text" href="https://github.com/TriDiamond" target="_blank" rel="noopener"><span class=" iconfont icon-github"></span></a>
-  <a class="gradient-text" href="https://twitter.com/TriDiamond6" target="_blank" rel="noopener"><span class=" iconfont icon-twitter"></span></a>
-  <a class="gradient-text" href="https://stackoverflow.com/users/7602324/tridiamond?tab=profile" target="_blank" rel="noopener"><span class=" iconfont icon-stack-overflow"></span></a>
+  <a class="gradient-text" href="https://github.com/pangjian" target="_blank" rel="noopener"><span class=" iconfont icon-github"></span></a>
+  <a class="gradient-text" href="https://weibo.com/u/1756750823" target="_blank" rel="noopener"><span class=" iconfont icon-weibo"></span></a>
+  <a class="gradient-text" href="https://stackoverflow.com/users/12484637/pangjian" target="_blank" rel="noopener"><span class=" iconfont icon-stack-overflow"></span></a>
 </div>
 
 <style>
